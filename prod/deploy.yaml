@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: my-container
-          image: httpd:latest
+          image: hello-world
           ports:
             - containerPort: 80
 
