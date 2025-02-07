@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: my-container
-          image: hello-world
+          image: ubuntu:18.04
           ports:
             - containerPort: 80
 
